@@ -44,9 +44,10 @@ python main.py --service (google|aws|azure|github) --key YOUR__API_KEY
 ### Options
 
 ```
---key          Your Google API key to validate
---verbose      Enable detailed output
---output       Specify output format (text, json)
+--key          Your API key to validate
+--key-file     Your file of API keys to validate 
+--service      Choose one. Google, AWS, Azure or GitHub (Required)
+
 ```
 
 ## 🔮 Future Enhancements
