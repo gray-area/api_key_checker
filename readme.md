@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-A simple yet powerful tool to validate Google API keys. This lightweight utility helps developers test the validity of their Google API keys before deploying them to production environments.
+A simple yet powerful tool to validate API keys. This lightweight utility helps developers test the validity of their Google API keys before deploying them to production environments.
 
 ## 📋 Features
 
@@ -10,6 +10,13 @@ A simple yet powerful tool to validate Google API keys. This lightweight utility
 - Detailed output of key status
 - Simple command-line interface
 - Fast and efficient execution
+
+## Supported Checks
+
+- Google
+- Amazon AWS
+- Microsoft Azure
+- GitHub
 
 ## 🖼️ Screenshot
 
@@ -31,7 +38,7 @@ pip install -r requirements.txt
 ## 💻 Usage
 
 ```bash
-python main.py --key YOUR_GOOGLE_API_KEY
+python main.py --service google|aws|azure|github --key YOUR_GOOGLE_API_KEY
 ```
 
 ### Options
@@ -43,16 +50,7 @@ python main.py --key YOUR_GOOGLE_API_KEY
 ```
 
 ## 🔮 Future Enhancements
-
-- **Multi-Platform Support**: Extend validation capabilities to other services:
-  - Amazon AWS
-  - Microsoft Azure
-  - GitHub
-  - And more cloud providers
   
-- **Service Selection**: Add the ability to specify which service you want to validate against
-  - `--service google|aws|azure|github`
-
 - **Batch Processing**: Allow validation of multiple keys at once
   
 - **Configuration File**: Support for config files to store default settings
