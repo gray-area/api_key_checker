@@ -13,7 +13,7 @@ A simple yet powerful tool to validate Google API keys. This lightweight utility
 
 ## 🖼️ Screenshot
 
-![Example Results](/images/results.png)
+![Example Results](/Images/results.png)
 
 ## 🚀 Installation
 
