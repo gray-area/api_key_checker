@@ -38,7 +38,7 @@ pip install -r requirements.txt
 ## 💻 Usage
 
 ```bash
-python main.py --service google|aws|azure|github --key YOUR_GOOGLE_API_KEY
+python main.py --service (google|aws|azure|github) --key YOUR__API_KEY
 ```
 
 ### Options
