@@ -38,15 +38,17 @@ pip install -r requirements.txt
 ## 💻 Usage
 
 ```bash
-python main.py --service (google|aws|azure|github) --key YOUR__API_KEY
+python main.py --service (google|aws|azure|github) --key YOUR__API_KEY --output (color|plain)
 ```
 
 ### Options
 
 ```
---key          Your API key to validate
+--key          Your API key to validate (REQUIRED)
 --key-file     Your file of API keys to validate 
---service      Choose one. Google, AWS, Azure or GitHub (Required)
+--service      Choose one. Google, AWS, Azure or GitHub (REQUIRED)
+--output       Can place the output to color or plain (Defaults to color)
+--log-dir      Directory to store log files (Defaults to curDir)
 
 ```
 
