@@ -2,11 +2,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-A simple yet powerful tool to validate API keys. This lightweight utility helps developers test the validity of their Google API keys before deploying them to production environments.
+A simple yet powerful tool to validate API keys. This lightweight utility helps penetration testers to test API keys that have been found.
 
 ## 📋 Features
 
-- Quick validation of Google API keys
+- Quick validation of discovered API keys
 - Detailed output of key status
 - Simple command-line interface
 - Fast and efficient execution
@@ -55,6 +55,7 @@ python main.py --service (google|aws|azure|github) --key YOUR__API_KEY
   
 - **Configuration File**: Support for config files to store default settings
 
+- **Provider Separation**: Each provider will eventually have their own file that will list all of their API URLs to be tested.
 
 ## 📜 License
 
