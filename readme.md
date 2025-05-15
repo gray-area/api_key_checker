@@ -19,7 +19,7 @@ A simple yet powerful tool to validate Google API keys. This lightweight utility
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/api_key_checker.git
+git clone https://github.com/gray-area/api_key_checker.git
 
 # Navigate to project directory
 cd api_key_checker
