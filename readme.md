@@ -63,5 +63,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🙏 Acknowledgments
 
-- Thanks to all contributors who have helped with the development
 - Inspired by the need for simple API key validation tools
